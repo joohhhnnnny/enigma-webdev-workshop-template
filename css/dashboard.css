@@ -12,62 +12,62 @@ body {
 
 }
 
-/* Sidebar container */
+
 .sidebar {
-  width: 16rem; /* 64 in Tailwind (w-64) */
-  background: linear-gradient(to bottom, #6b21a8, #581c87); /* from-purple-700 to-purple-900 */
+  width: 16rem; 
+  background: linear-gradient(to bottom, #6b21a8, #581c87); 
   color: white;
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
-/* Logo / header section */
+
 .sidebar .logo {
   padding: 1.5rem;
-  border-bottom: 1px solid rgba(147, 51, 234, 0.3); /* border-purple-600/30 */
+  border-bottom: 1px solid rgba(147, 51, 234, 0.3); 
   font-size: 1.25rem;
   font-weight: 600;
 }
 
-/* Navigation container */
+
 .side-menu {
   flex: 1;
   padding: 1rem;
 }
 
-/* List style reset */
+
 .side-menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Menu items */
+
 .side-menu li {
   margin-bottom: 0.25rem;
 }
 
-/* Base link style (like text-purple-100 hover:bg-white/10 hover:text-white) */
+
 .side-menu a {
   display: flex;
   align-items: center;
-  gap: 0.75rem; /* gap-3 */
+  gap: 0.75rem; 
   width: 80%;
-  padding: 0.75rem 1rem; /* px-4 py-3 */
-  border-radius: 0.5rem; /* rounded-lg */
-  color: #e9d5ff; /* text-purple-100 */
+  padding: 0.75rem 1rem; 
+  border-radius: 0.5rem; 
+  color: #e9d5ff; 
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-/* Hover effects */
+
 .side-menu a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
 }
 
-/* Active link (like bg-white/20 text-white shadow-lg) */
+
 .side-menu a.active {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;

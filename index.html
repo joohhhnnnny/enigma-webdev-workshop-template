@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
-    <link rel="stylesheet" href="/css/login.css">
-
-</head>
-<body>
-
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
     <!-- Login Container -->
     <div class="main-container">
+      <div class="login-container">
+        <h2 class="main-header">Login</h2>
 
-        <div class="login-container">
-            <h2 class="main-header">Login</h2>
-            
-                <div class="form-container">
-                    <label class="email-label" >Email</label>
-                    <input class="input-form" type="email" placeholder="robertdoe@example.com" id="email" required>
-                
-                </div>
-
-                
-                <div class="form-container">
-                    <label class="password-label" >Password</label>
-                    <input class="input-form" type="password" placeholder="***********" id="password" required>
-                
-                </div>
-
-                <button class="btn-login" onclick="loginForm()">Login</button>
-
+        <div class="form-container">
+          <label class="email-label">Email</label>
+          <input
+            class="input-form"
+            type="email"
+            placeholder="robertdoe@example.com"
+            id="email"
+            required
+          />
         </div>
-            <!-- Create a Register for this one as a practice okay? -->
-            <p class="remind-text">Don't have an Account? <a class="register-link" href="#">Sign up here</a> </p>
 
+        <div class="form-container">
+          <label class="password-label">Password</label>
+          <input
+            class="input-form"
+            type="password"
+            placeholder="***********"
+            id="password"
+            required
+          />
+        </div>
+
+        <button class="btn-login" onclick="loginForm()">Login</button>
+      </div>
+      
+      <!-- Create a Register for this one as a practice okay? -->
+      <p class="remind-text">
+        Don't have an Account?
+        <a class="register-link" href="#">Sign up here</a>
+      </p>
     </div>
 
-   
     <script src="/javascript/login.js"></script>
-
-</body>
- 
+  </body>
 </html>
